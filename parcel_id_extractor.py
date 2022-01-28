@@ -8,8 +8,8 @@ from string import ascii_uppercase, digits
 import requests
 from bs4 import BeautifulSoup
 
-SEARCH_URL = "http://qpublic9.qpublic.net/la_orleans_alsearch.php?" \
-             "searchType=owner_name&INPUT={}&BEGIN={}"
+SEARCH_URL = "https://qpublic.schneidercorp.com/Application.aspx?AppID=979&LayerID=19792&PageTypeID=2&PageID=8661" \
+             "searchType=owner_name&INPUT={}"
 
 Q = Queue()
 
